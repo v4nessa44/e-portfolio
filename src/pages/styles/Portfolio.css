@@ -1,0 +1,15 @@
+.projectsContainer {
+  display: flex;
+
+  padding: 50px;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.projects {
+  background-color: rgb(244, 245, 245);
+}
+.projects h1 {
+  padding-left: 50px;
+  font-family: cursive;
+}

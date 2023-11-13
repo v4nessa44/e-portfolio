@@ -1,0 +1,21 @@
+.resume {
+  background-color: rgb(244, 245, 245);
+  margin: 0;
+  padding: 50px;
+  text-align: justify;
+  min-height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.resume h1 {
+  font-family: cursive;
+  margin: 0;
+}
+
+.resume h2 {
+  font-size: 20px;
+}

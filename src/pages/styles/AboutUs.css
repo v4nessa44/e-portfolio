@@ -1,0 +1,25 @@
+.about {
+  background-color: rgb(244, 245, 245);
+  margin: 0;
+  padding: 50px;
+  text-align: justify;
+  min-height: 70vh;
+
+  display: flex;
+  flex-direction: column;
+ justify-content: center;
+ align-items: flex-start;
+ gap:20px;
+
+}
+
+.about h1{
+    font-family: cursive;
+}
+.about span{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-size: 50px;
+    border-radius: 50%;
+}
