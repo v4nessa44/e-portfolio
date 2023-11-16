@@ -9,18 +9,17 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 function App() {
   return (
-    <div>
-       <BrowserRouter >
+    
+       
       <Routes>
-
         <Route path="/e-portfolio" element={<AboutUs />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/about" element={<AboutUs />} />
         <Route path="/contact" element={<Conctact />} />
-    <Route path="/resume" element={<Resume />} />
+        <Route path="/resume" element={<Resume />} />
       </Routes>
-      </BrowserRouter>
-    </div>
+     
+  
   );
 }
 
